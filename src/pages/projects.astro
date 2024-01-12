@@ -5,47 +5,72 @@ import HorizontalCard from '../components/HorizontalCard.astro';
 
 <BaseLayout title="Projects" sideBarActiveItemID="projects">
 	<div>
-		<div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+		<div class="text-3xl w-full font-bold mb-5">
+			Software Development Projects
+		</div>
 	</div>
 
 	<HorizontalCard
-		title="Demo Project 1"
-		img="/post_img.webp"
-		desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-		url="#"
-		badge="NEW"
+		title="Forkify"
+		img="/forkify.webp"
+		desc="A modern JavaScript app that allows the user to search over 1,000,000 different food recipies. Developed as part of the Complete JS Course by Jonas Schmedtmann."
+		url="https://forkify-apaydev.netlify.app"
 	/>
 	<div class="divider my-0"></div>
 	<HorizontalCard
-		title="Demo Project 2"
-		img="/post_img.webp"
-		desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-		url="#"
+		title="Omnifood"
+		img="/omnifood.webp"
+		desc="A simple website for an AI-focused, food-delivery related startup, done as part of Jonas Schmedtmann's HTML and CSS course on Udemy."
+		url="https://omnifood-apaydev.netlify.app"
+	/>
+	<div class="divider my-0"></div>
+	<HorizontalCard
+		title="Trillo UI"
+		img="/trillo.webp"
+		desc="A modern-looking UI design for a booking app, using HTML5 and CSS3/SCSS. Built as part of Jonas Schmedtmanns' Advanced HTML and CSS course."
+		url="https://trillo-apaydev.netlify.app"
+	/>
+	<div class="divider my-0"></div>
+	<HorizontalCard
+		title="Nexter UI"
+		img="/nexter.webp"
+		desc="A grid-based landing page done as part of Jonas Schmedtmanns' Advanced HTML5 and CSS3 course."
+		url="https://nexter-apaydev.netlify.app"
 	/>
 
 	<div>
-		<div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
+		<div class="text-3xl w-full font-bold mb-5 mt-10">Electronics Projects</div>
 	</div>
 
 	<HorizontalCard
-		title="Demo Project 3"
-		img="/post_img.webp"
-		desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-		url="#"
-		badge="FOSS"
+		title="Kintsugi"
+		img="/kintsugi.webp"
+		desc="A 65%-ish keyboard powered by an ATmega32u4 microcontroller, with support for an encoder, an OLED screen, RGB underglow and Kailh hotswap sockets."
+		url="https://github.com/qmk/qmk_firmware/tree/master/keyboards/adpenrose/kintsugi"
+		badge="V1"
 	/>
 	<div class="divider my-0"></div>
 	<HorizontalCard
-		title="Demo Project 4"
-		img="/post_img.webp"
-		desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-		url="#"
+		title="Obi"
+		img="/obi.webp"
+		desc="A 40% keyboard inspired by the TMOv2 and Nightmare boards, with stepped caps lock and split spacebar support, as well as encoder compatibility and RGB underglow."
+		url="https://github.com/qmk/qmk_firmware/tree/master/keyboards/adpenrose/obi"
+		badge="V1"
 	/>
 	<div class="divider my-0"></div>
 	<HorizontalCard
-		title="Demo Project 5"
-		img="/post_img.webp"
-		desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-		url="#"
+		title="Shisaku"
+		img="/shisaku.webp"
+		desc="A 40% alice-like keyboard, assembled only with THT components, featuring a solenoid to achieve that characteristic typewriter sound."
+		url="https://github.com/qmk/qmk_firmware/tree/master/keyboards/adpenrose/shisaku"
+		badge="V1"
+	/>
+	<div class="divider my-0"></div>
+	<HorizontalCard
+		title="Mine"
+		img="/mine.webp"
+		desc="A hotswap ISO/ANSI-compatible 1800 alice, assembled only with THT components, including a solenoid and a chunky encoder."
+		url="https://github.com/qmk/qmk_firmware/tree/master/keyboards/adpenrose/mine"
+		badge="V1"
 	/>
 </BaseLayout>
