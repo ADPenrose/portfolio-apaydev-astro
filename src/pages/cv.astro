@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import TimeLineElement from '../components/cv/TimeLine.astro';
+import CourseCertificationItem from '@components/CourseCertificationItem.astro';
 ---
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
@@ -79,37 +80,49 @@ import TimeLineElement from '../components/cv/TimeLine.astro';
 	</div>
 
 	<div class="mb-5">
-		<div class="text-3xl w-full font-bold">Certifications</div>
+		<div class="text-3xl w-full font-bold">Courses and Certifications</div>
 	</div>
 
 	<ul class="list-disc mx-6 mb-10 grid gap-2">
-		<li>
-			<a href="#" target="_blank"> Certification Name (with link)</a>
-		</li>
-		<li>
-			<a href="#" target="_blank"> Certification Name (with link)</a>
-		</li>
-	</ul>
-
-	<div class="mb-5">
-		<div class="text-3xl w-full font-bold">Skills</div>
-	</div>
-
-	<ul class="list-disc md:columns-5 columns-2 mx-6">
-		<li>Skill Name</li>
-		<li>Skill Name</li>
-		<li>Skill Name</li>
-		<li>Skill Name</li>
-		<li>Skill Name</li>
-		<li>Skill Name</li>
-		<li>Skill Name</li>
-		<li>Skill Name</li>
-		<li>Skill Name</li>
-		<li>Skill Name</li>
-		<li>Skill Name</li>
-		<li>Skill Name</li>
-		<li>Skill Name</li>
-		<li>Skill Name</li>
-		<li>Skill Name</li>
+		<CourseCertificationItem
+			href="https://www.udemy.com/certificate/UC-e08651de-7e18-4467-b6ec-5ad94169900a/"
+			title="Build Responsive Real-Woeld Websites with HTML and CSS"
+		/>
+		<CourseCertificationItem
+			href="https://www.udemy.com/certificate/UC-76eadbd2-0013-4065-8bc1-ecfdbc623ad0/"
+			title="Advanced CSS and Sass: Flexbox, Grid, Animations and More!"
+		/>
+		<CourseCertificationItem
+			href="https://www.udemy.com/certificate/UC-b527e91f-1178-41a9-b433-a8b778e3c0e3/"
+			title="The Complete JavaScript Course 2023: From Zero to Expert!"
+		/>
+		<CourseCertificationItem
+			href="https://www.udemy.com/certificate/UC-190895aa-39ad-4d48-85e9-36cebdd5a3cb/"
+			title="100 Days Of Code (Python)"
+		/>
+		<CourseCertificationItem
+			href="https://www.udemy.com/certificate/UC-bcb46511-1fb7-4815-9489-c33fc6154ab7/"
+			title="Docker Mastery: with Kubernetes +Swarm from a Docker Captain"
+		/>
+		<CourseCertificationItem
+			href="https://www.udemy.com/certificate/UC-c8a8f752-6484-4eaa-acfc-0cacfc1108af/"
+			title="MySQL: Go from SQL Beginner to Expert"
+		/>
+		<CourseCertificationItem
+			href="https://www.udemy.com/certificate/UC-80bb0f0d-2248-4578-bed1-1494f0c97400/"
+			title="Master the Coding Interview: Data Structures + Algorithms"
+		/>
+		<CourseCertificationItem
+			href="https://www.udemy.com/certificate/UC-eed70c93-1ea1-465d-a28e-749c4fb4d8ea/"
+			title="Complete Guide to Protocol Buffers 3 [Java, Golang, Python]"
+		/>
+		<CourseCertificationItem
+			href="https://www.udemy.com/certificate/UC-89e11602-f4c5-4a43-b955-15d9110a1445/"
+			title="Figma UI UX Design Essentials"
+		/>
+		<CourseCertificationItem
+			href="https://www.coursera.org/account/accomplishments/certificate/UHCQ3LM96W6N"
+			title="Excel/VBA for Creative Problem Solving, Part 1"
+		/>
 	</ul>
 </BaseLayout>

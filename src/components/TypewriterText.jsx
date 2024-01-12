@@ -9,9 +9,9 @@ function TypewriterText() {
 					.typeString(`I'm <span class="text-primary">Arturo Avila</span>`)
 					.pauseFor(1500)
 					.deleteChars(12)
-					.typeString(`<span class="text-accent">Full Stack Dev</span>`)
+					.typeString(`<span class="text-accent">Full Stack Developer</span>`)
 					.pauseFor(1500)
-					.deleteChars(14)
+					.deleteChars(20)
 					.typeString(`<span class="text-success">Industrial Engineer</span>`)
 					.pauseFor(1500)
 					.deleteChars(19)
@@ -21,7 +21,7 @@ function TypewriterText() {
 					.pauseFor(1500)
 					.deleteChars(20)
 					.typeString(`<span class="text-info">National Gymnast</span>`)
-					.pauseFor(1000)
+					.pauseFor(1500)
 					.start();
 			}}
 			options={{
