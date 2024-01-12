@@ -10,7 +10,12 @@ export interface Props {
 	ogType?: string;
 }
 
-const { title, description, image = '/social_img.webp', ogType = 'website' } = Astro.props;
+const {
+	title,
+	description,
+	image = '/social_img.webp',
+	ogType = 'website',
+} = Astro.props;
 ---
 
 <!-- Global Metadata -->
@@ -37,3 +42,7 @@ const { title, description, image = '/social_img.webp', ogType = 'website' } = A
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
+
+<!-- Testing Typewriter -->
+<script defer src="https://unpkg.com/typewriter-effect@latest/dist/core.js"
+></script>
