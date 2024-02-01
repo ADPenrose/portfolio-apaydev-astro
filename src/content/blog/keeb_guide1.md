@@ -2,7 +2,7 @@
 title: '¿Quiúbole con el diseño de teclados mecánicos? — Parte 1: La idea, la teoría y los prerrequisitos'
 description: 'Cómo iniciar con el diseño de teclados mecánicos y no morir en el intento.'
 pubDate: 'Oct 03 2022'
-heroImage: '/keeb_guide_1.webp'
+heroImage: '/blog/keeb_guide_1/keeb_guide_1.webp'
 tags: ['electronics', 'mechanical keyboards', 'design']
 ---
 
